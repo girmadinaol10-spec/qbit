@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Gravit.io -->
+
+<svg
+   style="isolation:isolate"
+   viewBox="0 0 16 16"
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="glade.svg"
+   inkscape:version="1.4.4 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8">
+    <linearGradient
+       id="linearGradient8"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#99ff55;stop-opacity:1"
+         offset="0"
+         id="stop9" />
+      <stop
+         style="stop-color:#e5ff80;stop-opacity:1"
+         offset="1"
+         id="stop10" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8"
+       id="linearGradient10"
+       x1="8"
+       y1="22"
+       x2="47"
+       y2="22"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8"
+       id="linearGradient12"
+       x1="1.0390186"
+       y1="32.34"
+       x2="41"
+       y2="32.34"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="23.65625"
+     inkscape:cx="8.2007926"
+     inkscape:cy="9.997358"
+     inkscape:window-width="1920"
+     inkscape:window-height="994"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <linearGradient
+     id="_lgradient_12"
+     x1="1.5627142"
+     y1="0.54316336"
+     x2="-0.052491475"
+     y2="0.53895819"
+     gradientTransform="matrix(39.961,0,0,23.32,1.039,20.68)"
+     gradientUnits="userSpaceOnUse"
+     xlink:href="#linearGradient8">
+    <stop
+       offset="34.94098066785295%"
+       stop-opacity="1"
+       style="stop-color:rgb(178,229,107)"
+       id="stop1" />
+    <stop
+       offset="53.84922244785295%"
+       stop-opacity="1"
+       style="stop-color:rgb(194,233,100)"
+       id="stop2" />
+    <stop
+       offset="90.40515655585295%"
+       stop-opacity="1"
+       style="stop-color:rgb(236,244,81)"
+       id="stop3" />
+    <stop
+       offset="100%"
+       stop-opacity="1"
+       style="stop-color:rgb(250,247,75)"
+       id="stop4" />
+  </linearGradient>
+  <linearGradient
+     id="_lgradient_13"
+     x1="1.5627142"
+     y1="0.54316336"
+     x2="-0.052491475"
+     y2="0.53895819"
+     gradientTransform="matrix(39,0,0,36,8,4)"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="34.94098066785295%"
+       stop-opacity="1"
+       style="stop-color:rgb(178,229,107)"
+       id="stop5" />
+    <stop
+       offset="53.84922244785295%"
+       stop-opacity="1"
+       style="stop-color:rgb(194,233,100)"
+       id="stop6" />
+    <stop
+       offset="90.40515655585295%"
+       stop-opacity="1"
+       style="stop-color:rgb(236,244,81)"
+       id="stop7" />
+    <stop
+       offset="100%"
+       stop-opacity="1"
+       style="stop-color:rgb(250,247,75)"
+       id="stop8" />
+  </linearGradient>
+  <g
+     id="g8"
+     transform="matrix(0.32636379,0,0,0.325,0.16090191,0.2)">
+    <path
+       d="M 41,20.68 V 44 H 1.95 C 0.846,44 0.729,43.557 1.689,43.012 Z m -4,6.64 V 40 H 16.05 Z"
+       fill-rule="evenodd"
+       id="path4"
+       style="fill:url(#linearGradient12)" />
+    <path
+       d="m 12,31 v 0 c 0,1.104 -0.896,2 -2,2 v 0 C 8.896,33 8,32.104 8,31 V 31 13.09 C 8,12.538 8.337,11.795 8.753,11.432 L 16.497,4.658 C 16.913,4.295 17.698,4 18.25,4 H 43 c 2.208,0 4,1.792 4,4 v 30 0 c 0,1.104 -0.896,2 -2,2 v 0 c -1.104,0 -2,-0.896 -2,-2 V 38 10 C 43,8.896 42.104,8 41,8 H 18.75 L 12,13.91 Z"
+       id="path8"
+       style="fill:url(#linearGradient10)" />
+  </g>
+</svg>

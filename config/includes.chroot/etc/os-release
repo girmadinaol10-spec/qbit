@@ -1,0 +1,13 @@
+PRETTY_NAME="Qbit Linux 1.0"
+NAME="Qbit Linux"
+VERSION_ID="1.0"
+VERSION="1.0"
+VERSION_CODENAME=trixie
+ID=qbit
+ID_LIKE=debian
+LOGO=qbit-logo
+ANSI_COLOR="1;36"
+HOME_URL="https://github.com/girmadinaol10-spec/qbit"
+SUPPORT_URL="https://github.com/girmadinaol10-spec/qbit/issues"
+BUG_REPORT_URL="https://github.com/girmadinaol10-spec/qbit/issues"
+PRIVACY_POLICY_URL="https://github.com/girmadinaol10-spec/qbit"

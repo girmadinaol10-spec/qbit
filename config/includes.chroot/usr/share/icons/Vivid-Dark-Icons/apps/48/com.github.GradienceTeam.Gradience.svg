@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Gravit.io -->
+
+<svg
+   style="isolation:isolate"
+   viewBox="0 0 16 16"
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="com.github.GradienceTeam.Gradience.svg"
+   inkscape:version="1.4.4 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="20.276786"
+     inkscape:cx="12.230735"
+     inkscape:cy="18.124174"
+     inkscape:window-width="1920"
+     inkscape:window-height="994"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <linearGradient
+     id="_lgradient_1"
+     x1="0.075368561"
+     y1="0.70807391"
+     x2="1.0042826"
+     y2="0.1370331"
+     gradientTransform="matrix(2.9057205,-13.629099,8.2532759,1.7596355,5.6810273,16.111786)"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="0%"
+       stop-opacity="1"
+       style="stop-color:rgb(156,51,196)"
+       id="stop1" />
+    <stop
+       offset="51.30434782608696%"
+       stop-opacity="1"
+       style="stop-color:rgb(255,25,80)"
+       id="stop2" />
+    <stop
+       offset="98.69565217391305%"
+       stop-opacity="1"
+       style="stop-color:rgb(255,135,36)"
+       id="stop3" />
+  </linearGradient>
+  <linearGradient
+     id="_lgradient_2"
+     x1="0"
+     y1="0.5"
+     x2="1.1057762"
+     y2="0.48527575"
+     gradientTransform="matrix(8.6106545,-8.0294095,3.9556464,4.2418522,-0.64427167,10.993145)"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="0%"
+       stop-opacity="1"
+       style="stop-color:rgb(84,51,255)"
+       id="stop4" />
+    <stop
+       offset="21.298257030345223%"
+       stop-opacity="1"
+       style="stop-color:rgb(32,255,170)"
+       id="stop5" />
+    <stop
+       offset="44.34123973444477%"
+       stop-opacity="1"
+       style="stop-color:rgb(188,250,44)"
+       id="stop6" />
+    <stop
+       offset="70.08139158080739%"
+       stop-opacity="1"
+       style="stop-color:rgb(252,120,120)"
+       id="stop7" />
+    <stop
+       offset="98.26086956521739%"
+       stop-opacity="1"
+       style="stop-color:rgb(255,0,0)"
+       id="stop8" />
+  </linearGradient>
+  <g
+     id="g8"
+     transform="translate(0.86850831,-2.1769696)">
+    <path
+       d="M 9.5299145,13.564454 8.4746884,12.424174 C 8.2737891,12.207122 8.2866608,11.86741 8.5039652,11.666259 L 12.896239,7.6003196 10.460209,4.9699522 9.7151658,5.6609852 C 9.6099208,5.7563871 9.4723704,5.8093882 9.3310343,5.8038357 9.1869218,5.7977785 9.0521477,5.7361963 8.9567458,5.6309513 8.8613438,5.5254539 8.8083428,5.3881559 8.8136429,5.2465673 8.8197001,5.1027073 8.8807776,4.970457 8.9867797,4.8722788 L 10.12605,3.8193243 c 0.217305,-0.2008993 0.557016,-0.1875229 0.758168,0.029781 l 3.162145,3.417307 c 0.201151,0.2173044 0.187775,0.5567636 -0.02928,0.7579153 L 9.6253134,12.087742 10.316094,12.83531 c 0.09843,0.103226 0.148403,0.242795 0.14285,0.384131 -0.0056,0.141589 -0.06713,0.276363 -0.172632,0.371765 -0.103225,0.09868 -0.242543,0.148403 -0.3841311,0.143103 -0.1413362,-0.0056 -0.2761104,-0.06714 -0.3722694,-0.169856 z m 0.8871365,0.446723 0.277877,-0.257181 c 0.300592,-0.278382 0.770535,-0.26021 1.048917,0.04063 l 1.412604,1.525926 c 0.106255,0.114836 0.09919,0.294282 -0.01565,0.400537 l -0.951243,0.880575 c -0.114836,0.106254 -0.294283,0.09919 -0.400537,-0.01565 l -1.412349,-1.52592 c -0.278382,-0.300592 -0.26021,-0.770535 0.04038,-1.048917 z"
+       fill-rule="evenodd"
+       fill="url(#_lgradient_1)"
+       id="path3"
+       style="fill:url(#_lgradient_1);stroke-width:0.252386" />
+    <path
+       d="M 0.62623966,9.8084451 6.6956192,4.1484357 C 7.3967476,3.4945034 8.4971508,3.5331185 9.1508306,4.2342469 l 1.5859944,1.7008296 c 0.653932,0.7011284 0.615569,1.8012791 -0.08556,2.4552114 L 4.5816337,14.050297 c -0.7011284,0.65368 -1.8012792,0.615317 -2.4552114,-0.08581 l -1.58599389,-1.70083 c -0.65393224,-0.701128 -0.61556956,-1.801279 0.0858113,-2.4552109 z"
+       fill="url(#_lgradient_2)"
+       id="path8"
+       style="fill:url(#_lgradient_2);stroke-width:0.252386" />
+  </g>
+</svg>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Gravit.io -->
+
+<svg
+   style="isolation:isolate"
+   viewBox="0 0 12 12"
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="kodi.svg"
+   inkscape:version="1.4.4 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="8.3637474"
+     inkscape:cx="34.673453"
+     inkscape:cy="20.983417"
+     inkscape:window-width="1920"
+     inkscape:window-height="994"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <linearGradient
+     id="_lgradient_41"
+     x1="0.061897106"
+     y1="0.14716151"
+     x2="0.99042481"
+     y2="0.98658085"
+     gradientTransform="matrix(10.231441,0,0,9.7496688,0.8842795,1.125)"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="0%"
+       stop-opacity="1"
+       style="stop-color:rgb(22,181,228)"
+       id="stop1" />
+    <stop
+       offset="98.26086956521739%"
+       stop-opacity="1"
+       style="stop-color:rgb(245,32,250)"
+       id="stop2" />
+  </linearGradient>
+  <path
+     d="M 10.00152,1.125 2.4064135,8.720106 V 1.1405624 L 0.8842795,2.663689 V 9.351873 L 2.4064135,10.875 V 10.8727 L 6.2314485,7.047665 10.038605,10.85482 11.115721,9.777704 7.3085645,5.970549 11.077974,2.201472 Z"
+     fill="url(#_lgradient_41)"
+     id="path2"
+     style="fill:url(#_lgradient_41);stroke-width:0.331115" />
+</svg>

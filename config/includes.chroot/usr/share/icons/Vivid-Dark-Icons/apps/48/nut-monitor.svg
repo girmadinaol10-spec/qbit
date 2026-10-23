@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Gravit.io -->
+
+<svg
+   style="isolation:isolate"
+   viewBox="0 0 16 16"
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="nut-monitor.svg"
+   inkscape:version="1.4.4 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="23.65625"
+     inkscape:cx="5.2417437"
+     inkscape:cy="7.672391"
+     inkscape:window-width="1920"
+     inkscape:window-height="994"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <linearGradient
+     id="_lgradient_22"
+     x1="0"
+     y1="0.5"
+     x2="1"
+     y2="0.5"
+     gradientTransform="matrix(10.883721,0,0,6.6511628,6,9.3488372)"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="0%"
+       stop-opacity="1"
+       style="stop-color:rgb(117,127,154)"
+       id="stop1" />
+    <stop
+       offset="98.69565217391305%"
+       stop-opacity="1"
+       style="stop-color:rgb(215,221,232)"
+       id="stop2" />
+  </linearGradient>
+  <linearGradient
+     id="_lgradient_23"
+     x1="0"
+     y1="0.5"
+     x2="1"
+     y2="0.5"
+     gradientTransform="matrix(10.883721,0,0,6.9534883,6,3)"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="0%"
+       stop-opacity="1"
+       style="stop-color:rgb(247,242,6)"
+       id="stop3" />
+    <stop
+       offset="97.82608695652173%"
+       stop-opacity="1"
+       style="stop-color:rgb(255,187,36)"
+       id="stop4" />
+  </linearGradient>
+  <g
+     id="g4"
+     transform="translate(-3.4418605,-1.5)">
+    <path
+       d="M 15.674419,9.9534884 V 9.3488372 h 1.209302 V 9.9534884 14.790698 C 16.883721,15.458233 16.341953,16 15.674419,16 H 7.2093023 C 6.5417674,16 6,15.458233 6,14.790698 V 9.9534884 9.3488372 h 1.2093023 v 0.6046512 4.2325586 c 0,0.333767 0.2708837,0.604651 0.6046512,0.604651 h 7.2558135 c 0.333768,0 0.604652,-0.270884 0.604652,-0.604651 z"
+       fill="url(#_lgradient_22)"
+       id="path2"
+       style="fill:url(#_lgradient_22);stroke-width:0.302326" />
+    <path
+       d="M 10.232558,4.5116279 V 4.2093023 h 2.418605 v 0.3023256 z m 0,4.2325581 h 2.418605 c 0.333767,0 0.604651,0.2708838 0.604651,0.6046512 v 0 c 0,0.3337675 -0.270884,0.6046512 -0.604651,0.6046512 h -2.418605 c -0.3337673,0 -0.604651,-0.2708837 -0.604651,-0.6046512 v 0 c 0,-0.3337674 0.2708837,-0.6046512 0.604651,-0.6046512 z M 7.8139535,9.3488372 c 0,-0.3337674 0.2708837,-0.6046512 0.6046512,-0.6046512 0.3337674,0 0.6046511,0.2708838 0.6046511,0.6046512 0,0.3337675 -0.2708837,0.6046512 -0.6046511,0.6046512 -0.3337675,0 -0.6046512,-0.2708837 -0.6046512,-0.6046512 z M 9.0232558,4.5116279 V 3.6046512 C 9.0232558,3.2708837 9.2941395,3 9.627907,3 h 3.627907 c 0.333767,0 0.604651,0.2708837 0.604651,0.6046512 v 0.9069767 h 1.813954 c 0.667534,0 1.209302,0.5417674 1.209302,1.2093023 V 8.744186 9.3488372 H 15.674419 V 8.744186 6.3255814 c 0,-0.3337674 -0.270884,-0.6046512 -0.604652,-0.6046512 H 7.8139535 c -0.3337675,0 -0.6046512,0.2708838 -0.6046512,0.6046512 V 8.744186 9.3488372 H 6 V 8.744186 5.7209302 C 6,5.0533953 6.5417674,4.5116279 7.2093023,4.5116279 Z m 4.8372092,4.8372093 c 0,-0.3337674 0.270884,-0.6046512 0.604651,-0.6046512 0.333768,0 0.604651,0.2708838 0.604651,0.6046512 0,0.3337675 -0.270883,0.6046512 -0.604651,0.6046512 -0.333767,0 -0.604651,-0.2708837 -0.604651,-0.6046512 z"
+       fill-rule="evenodd"
+       fill="url(#_lgradient_23)"
+       id="path4"
+       style="fill:url(#_lgradient_23);stroke-width:0.302326" />
+  </g>
+</svg>

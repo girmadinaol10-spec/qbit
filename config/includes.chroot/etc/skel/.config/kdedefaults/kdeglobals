@@ -1,0 +1,8 @@
+[General]
+ColorScheme=VividCyanDarkColorscheme
+
+[Icons]
+Theme=Vivid-Dark-Icons
+
+[KDE]
+widgetStyle=Breeze

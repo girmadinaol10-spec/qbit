@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Gravit.io -->
+
+<svg
+   style="isolation:isolate"
+   viewBox="0 0 16 16"
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg18"
+   sodipodi:docname="dev.vencord.Vesktop.svg"
+   inkscape:version="1.4.4 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs18" />
+  <sodipodi:namedview
+     id="namedview18"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="16.727495"
+     inkscape:cx="10.760727"
+     inkscape:cy="14.018836"
+     inkscape:window-width="1920"
+     inkscape:window-height="994"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg18" />
+  <linearGradient
+     id="_lgradient_4"
+     x1="0.39758334"
+     y1="-0.50980347"
+     x2="0.47722489"
+     y2="1.9740165"
+     gradientTransform="matrix(15.562,0,0,19.154,8.438,10.233)"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="0%"
+       stop-opacity="1"
+       style="stop-color:rgb(218,96,109)"
+       id="stop1" />
+    <stop
+       offset="20.451249663033867%"
+       stop-opacity="1"
+       style="stop-color:rgb(253,144,76)"
+       id="stop2" />
+    <stop
+       offset="39.731782647206074%"
+       stop-opacity="1"
+       style="stop-color:rgb(250,207,80)"
+       id="stop3" />
+    <stop
+       offset="60.97443678515043%"
+       stop-opacity="1"
+       style="stop-color:#8d5fd3;stop-opacity:1"
+       id="stop4" />
+    <stop
+       offset="80.84032810875343%"
+       stop-opacity="1"
+       style="stop-color:rgb(84,152,242)"
+       id="stop5" />
+    <stop
+       offset="98.33333333333333%"
+       stop-opacity="1"
+       style="stop-color:rgb(170,91,213)"
+       id="stop6" />
+  </linearGradient>
+  <linearGradient
+     id="_lgradient_5"
+     x1="0.55949229"
+     y1="-0.95219809"
+     x2="0.55451471"
+     y2="1.5465547"
+     gradientTransform="matrix(19.154,0,0,19.154,20.409,18.613)"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="0%"
+       stop-opacity="1"
+       style="stop-color:rgb(218,96,109)"
+       id="stop7" />
+    <stop
+       offset="20.451249663033867%"
+       stop-opacity="1"
+       style="stop-color:rgb(253,144,76)"
+       id="stop8" />
+    <stop
+       offset="39.731782647206074%"
+       stop-opacity="1"
+       style="stop-color:rgb(250,207,80)"
+       id="stop9" />
+    <stop
+       offset="60.97443678515043%"
+       stop-opacity="1"
+       style="stop-color:#8d5fd3;stop-opacity:1"
+       id="stop10" />
+    <stop
+       offset="80.84032810875343%"
+       stop-opacity="1"
+       style="stop-color:rgb(84,152,242)"
+       id="stop11" />
+    <stop
+       offset="98.33333333333333%"
+       stop-opacity="1"
+       style="stop-color:rgb(170,91,213)"
+       id="stop12" />
+  </linearGradient>
+  <g
+     id="g18"
+     transform="matrix(0.48194319,0,0,0.47214353,-3.5666366,-3.3314447)">
+    <path
+       d="m 8.438,10.233 v 11.926 l 0.526,1.265 5.985,5.963 h 2.539 L 23.474,23.424 24,22.159 V 10.233 h -3.591 v 11.186 l -4.19,4.174 -4.19,-4.174 V 10.233 Z"
+       fill="url(#_lgradient_4)"
+       id="path6"
+       style="fill:url(#_lgradient_4)" />
+    <path
+       d="m 24,18.613 v 3.591 H 20.409 V 34.175 H 24 v 3.592 h 11.971 v -3.592 h 3.591 v -3.591 h -5.985 v 3.591 H 26.394 V 22.204 h 7.183 v 3.592 h 5.985 v -3.592 h -3.591 v -3.591 z"
+       fill="url(#_lgradient_5)"
+       id="path12"
+       style="fill:url(#_lgradient_5)" />
+  </g>
+  <linearGradient
+     id="_lgradient_6"
+     x1="0.53515625"
+     y1="0.013671875"
+     x2="0.541067"
+     y2="1.0066818"
+     gradientTransform="matrix(48,0,0,48,-39.036,15.957)"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="0%"
+       stop-opacity="1"
+       style="stop-color:rgb(218,96,109)"
+       id="stop13" />
+    <stop
+       offset="20.451249663033867%"
+       stop-opacity="1"
+       style="stop-color:rgb(253,144,76)"
+       id="stop14" />
+    <stop
+       offset="39.731782647206074%"
+       stop-opacity="1"
+       style="stop-color:rgb(250,207,80)"
+       id="stop15" />
+    <stop
+       offset="60.97443678515043%"
+       stop-opacity="1"
+       style="stop-color:rgb(60,200,109)"
+       id="stop16" />
+    <stop
+       offset="80.84032810875343%"
+       stop-opacity="1"
+       style="stop-color:rgb(84,152,242)"
+       id="stop17" />
+    <stop
+       offset="98.33333333333333%"
+       stop-opacity="1"
+       style="stop-color:rgb(170,91,213)"
+       id="stop18" />
+  </linearGradient>
+</svg>

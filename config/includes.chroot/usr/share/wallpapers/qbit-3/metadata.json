@@ -1,0 +1,8 @@
+{
+    "KPlugin": {
+        "Id": "qbit-3",
+        "Name": "Qbit 3",
+        "Authors": [ { "Name": "Qbit Linux" } ],
+        "License": "CC-BY-SA-4.0"
+    }
+}

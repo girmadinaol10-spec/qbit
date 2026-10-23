@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+BASE=.
+[ ! -d "$BASE/isolinux" ] && [ ! -d "$BASE/boot/grub" ] && BASE=binary
+[ -f "$BASE/qbit-boot/isolinux-splash.png" ] && cp "$BASE/qbit-boot/isolinux-splash.png" "$BASE/isolinux/splash.png"
+[ -f "$BASE/qbit-boot/grub-splash.png" ] && cp "$BASE/qbit-boot/grub-splash.png" "$BASE/boot/grub/splash.png"
+rm -rf "$BASE/qbit-boot"
+for f in "$BASE"/isolinux/*.cfg "$BASE"/boot/grub/*.cfg "$BASE"/boot/grub/live-theme/theme.txt; do
+    [ -f "$f" ] || continue
+    sed -i 's/Debian GNU\/Linux/Qbit Linux/g; s/Debian Live/Qbit Linux Live/g' "$f"
+done

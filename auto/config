@@ -1,0 +1,23 @@
+#!/bin/sh
+set -e
+
+lb config noauto \
+    --distribution trixie \
+    --parent-distribution trixie \
+    --architectures amd64 \
+    --linux-flavours amd64 \
+    --archive-areas "main contrib non-free-firmware" \
+    --parent-archive-areas "main contrib non-free-firmware" \
+    --firmware-chroot true \
+    --firmware-binary true \
+    --debian-installer none \
+    --binary-images iso-hybrid \
+    --bootloaders "syslinux,grub-efi" \
+    --apt-indices false \
+    --iso-application "Qbit Linux" \
+    --iso-publisher "Qbit Linux; diniy" \
+    --iso-preparer "Qbit Linux live-build" \
+    --iso-volume "QBIT_1_0" \
+    --image-name "qbit-linux-1.0-amd64" \
+    --bootappend-live "boot=live components quiet splash username=live hostname=qbit" \
+    "${@}"

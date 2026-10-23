@@ -1,0 +1,16 @@
+#!/bin/sh
+# zsh becomes the default shell for new users (live user and users made by the installer)
+set -e
+[ -x /bin/zsh ] || exit 0
+if [ -f /etc/adduser.conf ]; then sed -i 's#^DSHELL=.*#DSHELL=/bin/zsh#' /etc/adduser.conf; fi
+mkdir -p /etc/default
+if grep -q '^SHELL=' /etc/default/useradd 2>/dev/null; then
+    sed -i 's#^SHELL=.*#SHELL=/bin/zsh#' /etc/default/useradd
+else
+    echo 'SHELL=/bin/zsh' >> /etc/default/useradd
+fi
+cf=/etc/calamares/modules/users.conf
+if [ -f "$cf" ]; then
+    if grep -q '^userShell:' "$cf"; then sed -i 's#^userShell:.*#userShell: /bin/zsh#' "$cf"
+    else echo 'userShell: /bin/zsh' >> "$cf"; fi
+fi

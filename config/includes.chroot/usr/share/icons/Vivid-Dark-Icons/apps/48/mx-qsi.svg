@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Gravit.io -->
+
+<svg
+   style="isolation:isolate"
+   viewBox="0 0 16 16"
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="mx-qsi.svg"
+   inkscape:version="1.4.4 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient2"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#00ccff;stop-opacity:1"
+         offset="0"
+         id="stop3" />
+      <stop
+         style="stop-color:#8d5fd3;stop-opacity:1"
+         offset="1"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2"
+       id="linearGradient4"
+       x1="0.25"
+       y1="14.5"
+       x2="13.255944"
+       y2="4.0264201"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="rotate(180,8,8)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2"
+       id="linearGradient6"
+       x1="29"
+       y1="67.682426"
+       x2="31.513411"
+       y2="67.682426"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2"
+       id="linearGradient8"
+       x1="29"
+       y1="65.783745"
+       x2="31.513411"
+       y2="65.783745"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="23.65625"
+     inkscape:cx="8.5389696"
+     inkscape:cy="14.943197"
+     inkscape:window-width="1920"
+     inkscape:window-height="994"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <linearGradient
+     id="_lgradient_3"
+     x1="0.57047874"
+     y1="0.074945442"
+     x2="0.57364911"
+     y2="1.1481571"
+     gradientTransform="matrix(-15.5,0,0,-13,15.75,14.5)"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="0%"
+       stop-opacity="1"
+       style="stop-color:rgb(78,84,200)"
+       id="stop1" />
+    <stop
+       offset="83.88839793817618%"
+       stop-opacity="1"
+       style="stop-color:rgb(0,114,255)"
+       id="stop2" />
+  </linearGradient>
+  <path
+     d="m 11.369435,13.500075 h 2.695683 c 0.373318,0 0.674085,-0.29753 0.674085,-0.666834 v -9.999899 0 H 1.260798 v 0 9.999899 c 0,0.369304 0.300766,0.666834 0.674085,0.666834 h 2.695681 v -0.666834 c 0,-0.369303 0.300436,-0.666507 0.673755,-0.666507 h 5.391362 c 0.373319,0 0.673754,0.297204 0.673754,0.666507 z M 0.25,2.833342 c 0,0 0,0 0,0 v 9.999899 c 0,0.44336 0.178744,0.866819 0.492042,1.180009 C 1.058638,14.323178 1.486702,14.5 1.934883,14.5 h 12.130235 c 0.448179,0 0.876245,-0.176822 1.192841,-0.48675 C 15.571256,13.70006 15.75,13.276601 15.75,12.833241 v -9.999899 0 c 0,0 0,0 0,0 v 0 -0.666508 C 15.75,1.797204 15.404383,1.5 14.975,1.5 H 1.025 C 0.595617,1.5 0.25,1.797204 0.25,2.166834 Z"
+     fill-rule="evenodd"
+     id="path2"
+     style="fill:url(#linearGradient4)" />
+  <g
+     id="g1"
+     transform="matrix(-0.65113034,0,0,-0.65113034,27.701059,52.070081)"
+     style="fill:url(#linearGradient6)">
+    <path
+       style="fill:url(#linearGradient6);stroke:url(#linearGradient8);stroke-width:2.51341;stroke-linecap:round;stroke-linejoin:round"
+       d="m 30.256705,63.256705 v 5.054082"
+       id="path6" />
+    <ellipse
+       style="fill:url(#linearGradient6);stroke-width:1.25683"
+       cx="30.256718"
+       cy="72.101334"
+       id="circle6"
+       rx="1.2499964"
+       ry="1.2635183" />
+  </g>
+</svg>

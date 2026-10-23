@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Gravit.io -->
+
+<svg
+   style="isolation:isolate"
+   viewBox="0 0 16 16"
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg7"
+   sodipodi:docname="moon-modeler.svg"
+   inkscape:version="1.4.4 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs7" />
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="16.727495"
+     inkscape:cx="9.325963"
+     inkscape:cy="4.9917815"
+     inkscape:window-width="1920"
+     inkscape:window-height="994"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg7" />
+  <linearGradient
+     id="_lgradient_0"
+     x1="0"
+     y1="0.5"
+     x2="1"
+     y2="0.5"
+     gradientTransform="scale(10.169792,11.855458)"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="0%"
+       stop-opacity="1"
+       style="stop-color:rgb(84,51,255)"
+       id="stop1" />
+    <stop
+       offset="51.73913043478261%"
+       stop-opacity="1"
+       style="stop-color:rgb(32,189,255)"
+       id="stop2" />
+    <stop
+       offset="98.26086956521739%"
+       stop-opacity="1"
+       style="stop-color:rgb(165,254,203)"
+       id="stop3" />
+  </linearGradient>
+  <linearGradient
+     id="_lgradient_1"
+     x1="5.5511151e-17"
+     y1="0.49999887"
+     x2="1"
+     y2="0.49999887"
+     gradientTransform="matrix(10.402708,0,0,12.474312,2.582125,0.52568749)"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="0"
+       stop-opacity="1"
+       style="stop-color:#be5fd3;stop-opacity:1;"
+       id="stop4" />
+    <stop
+       offset="0.30000001"
+       stop-opacity="1"
+       style="stop-color:#b79ae3;stop-opacity:1;"
+       id="stop5" />
+    <stop
+       offset="81%"
+       stop-opacity="1"
+       style="stop-color:#ffcc00;stop-opacity:1"
+       id="stop6" />
+    <stop
+       offset="100%"
+       stop-opacity="1"
+       style="stop-color:#ffcc00;stop-opacity:1"
+       id="stop7" />
+  </linearGradient>
+  <g
+     id="g7"
+     transform="matrix(1.0011681,0,0,1,1.4999997,1.5)">
+    <path
+       d="M 1.0976875,6.8951458 7.3160208,5.7357083 H 1.1375 v 0 C 1.2545,4.91725 1.5575625,4.1369792 2.0212292,3.45475 L 8.6688333,2.3467708 H 3.0238542 v 0 C 3.9947917,1.5342708 5.2249167,1.0833333 6.5,1.0833333 c 1.3595833,0 2.6704167,0.511875 3.669792,1.4354167 Q 9.7261667,0.81466667 9.048,0.5256875 C 8.2493125,0.18525 7.3834583,0 6.5,0 4.7775,0 3.1227083,0.68520833 1.9039583,1.9039583 0.68520833,3.1227083 0,4.7775 0,6.5 c 0,1.3216667 0.40354167,2.6135417 1.1564583,3.699583 0.3983959,0.576334 0.8723542,1.081438 1.4256667,1.497438 q 0.4921042,0.369958 2.0112083,-0.124313 C 3.5641667,11.182708 2.673125,10.489375 2.0475,9.5847917 1.4944583,8.786375 1.1681042,7.8576875 1.0976875,6.8951458 Z M 9.9468958,4.376125 c 0.00515,-0.2451042 0.00488,-0.4818125 -0.00921,-0.7187917 l -4.31275,0.7187917 z"
+       fill-rule="evenodd"
+       fill="url(#_lgradient_0)"
+       id="path3"
+       style="fill:url(#_lgradient_0);stroke-width:0.270833" />
+    <path
+       d="m 12.629229,4.376125 c 0.230479,0.6657083 0.355604,1.3801667 0.355604,2.123875 0,3.587458 -2.912541,6.5 -6.4999997,6.5 C 5.0207083,13 3.66925,12.514938 2.582125,11.697021 6.5823333,11.585979 9.8125625,8.3706458 9.9468958,4.376125 Z M 9.9376875,3.6573333 C 9.87025,2.5295833 9.5558125,1.4676458 9.0477292,0.5256875 10.353688,1.087125 11.439187,2.0645625 12.137396,3.290625 Z"
+       fill-rule="evenodd"
+       fill="url(#_lgradient_1)"
+       id="path7"
+       style="fill:url(#_lgradient_1);stroke-width:0.270833" />
+  </g>
+</svg>

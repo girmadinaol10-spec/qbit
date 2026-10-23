@@ -1,0 +1,26 @@
+# ===== Planned for Qbit 1.1 (AI Mode + cybersecurity session) =====
+# To turn this on, rename the file to qbit-sessions.list.chroot
+# Note: waybar/wofi/kitty are Wayland tools and need a compositor (for example: sway).
+waybar
+wofi
+kitty
+aircrack-ng
+hashcat
+wifite
+wireshark
+nmap
+hydra
+john
+sqlmap
+gobuster
+netcat-traditional
+tcpdump
+python3-pip
+python3-venv
+python3-dev
+python3-numpy
+python3-scipy
+build-essential
+cmake
+libopenblas-dev
+sqlite3

@@ -1,0 +1,3 @@
+Package: desktop-base
+Pin: version *
+Pin-Priority: -1

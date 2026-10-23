@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   version="1"
+   id="svg6"
+   sodipodi:docname="distributor-logo-antergos.svg"
+   inkscape:version="1.4.4 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="22.686342"
+     inkscape:cx="8.4191624"
+     inkscape:cy="15.273507"
+     inkscape:window-width="1920"
+     inkscape:window-height="994"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <path
+     fill="#315080"
+     d="m 8.0000002,2.0208111 c 2.4426478,0 5.9791898,5.3812553 5.9791898,8.3708409 0,3.587504 -4.1854329,3.587504 -5.9791898,3.587504 -1.7937571,0 -5.9791903,0 -5.9791903,-3.587504 0,-2.9895856 3.5366911,-8.3708409 5.9791903,-8.3708409 z"
+     id="path1"
+     style="stroke:#315080;stroke-width:1.04162;stroke-dasharray:none;stroke-opacity:1;fill:#315080;fill-opacity:0.00771456" />
+  <path
+     fill="#ffffff"
+     d="M 8.8350153,11.072052 C 9.600876,9.1793249 9.7507003,6.7325861 9.2032989,5.0407914 9.059332,4.5959303 8.9940483,4.6992874 8.7387591,5.7725785 8.3520631,7.3924369 7.4589747,9.3397407 6.6269909,10.3783 c -0.230177,0.286101 -0.4009266,0.573027 -0.3791643,0.636697 0.072818,0.216643 0.9843199,0.473801 1.6999612,0.479591 l 0.7131291,0.0054 z M 11.500046,8.0481531 c 0,-0.9492599 -0.369958,-1.8406358 -1.014452,-2.4475658 Q 10.050349,5.1912824 10.132377,5.4013118 c 0.374142,0.9492571 0.719826,2.2854937 0.831146,3.2149061 l 0.133923,1.1105023 0.200879,-0.4572656 C 11.434757,8.9618561 11.500046,8.5632991 11.500046,8.0481531 M 5.3137266,8.4615914 C 6.1130682,7.8736818 6.9350094,7.0616846 7.4464207,6.3555313 c 0.7415876,-1.0253301 1.1056861,-1.85552 0.8135706,-1.85552 -0.05609,0 -0.4201763,0.234007 -0.8077106,0.5209326 C 7.0639085,5.3070437 6.3139501,5.7618325 5.7866357,6.0313924 4.8374697,6.5159433 4.8240778,6.5283476 4.6608611,7.068299 4.4264992,7.8463935 4.4532839,8.8485702 4.7077329,8.8485702 c 0.044358,0 0.3172258,-0.1736424 0.605993,-0.3869788"
+     id="path2"
+     style="stroke-width:0.831952" />
+</svg>

@@ -1,0 +1,17 @@
+#!/bin/sh
+set -e
+for d in /etc/calamares/branding/qbit /usr/share/calamares/branding/qbit; do
+    [ -d "$d" ] || continue
+    [ -f /usr/share/qbit/installer-bg.png ] && cp /usr/share/qbit/installer-bg.png "$d/installer-bg.png"
+    [ -f /usr/share/qbit/logo-256.png ] && cp /usr/share/qbit/logo-256.png "$d/qbit-logo.png"
+    if [ -f "$d/branding.desc" ]; then
+        sed -i -E 's#^([[:space:]]*productWelcome:[[:space:]]*).*#\1"installer-bg.png"#' "$d/branding.desc"
+        sed -i -E 's#^([[:space:]]*productLogo:[[:space:]]*).*#\1"qbit-logo.png"#' "$d/branding.desc"
+        sed -i -E 's#^([[:space:]]*productIcon:[[:space:]]*).*#\1"qbit-logo.png"#' "$d/branding.desc"
+    fi
+done
+for f in /usr/share/applications/*.desktop /etc/skel/Desktop/*.desktop; do
+    [ -f "$f" ] || continue
+    grep -qi calamares "$f" || continue
+    sed -i -E '/^(Name|GenericName|Comment)(\[[^]]*\])?=/ s/Debian( GNU\/Linux)?/Qbit Linux/g' "$f"
+done

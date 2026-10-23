@@ -1,0 +1,7 @@
+#!/bin/sh
+# Turn the firewall on by default (incoming blocked, outgoing allowed).
+set -e
+if [ -f /etc/ufw/ufw.conf ]; then
+    sed -i 's/^ENABLED=.*/ENABLED=yes/' /etc/ufw/ufw.conf
+fi
+systemctl enable ufw 2>/dev/null || true

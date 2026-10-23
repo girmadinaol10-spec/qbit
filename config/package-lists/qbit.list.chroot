@@ -1,0 +1,95 @@
+# ===== Qbit Linux 1.0 base: Debian 13 (Trixie) + KDE Plasma 6 =====
+
+# ---- Desktop ----
+kde-plasma-desktop
+sddm
+plasma-workspace
+plasma-nm
+plasma-pa
+bluedevil
+powerdevil
+kscreen
+xdg-desktop-portal-kde
+konsole
+dolphin
+kate
+ark
+gwenview
+okular
+kde-spectacle
+plasma-discover
+plasma-discover-backend-flatpak
+firefox-esr
+
+# ---- Network, audio (PipeWire), Bluetooth ----
+network-manager
+wpasupplicant
+iw
+net-tools
+pipewire-audio
+wireplumber
+libspa-0.2-bluetooth
+alsa-utils
+bluez
+pciutils
+usbutils
+
+# ---- Installer (Calamares) + bootloader + dual boot with Windows ----
+calamares
+calamares-settings-debian
+os-prober
+ntfs-3g
+efibootmgr
+grub-efi-amd64
+grub-pc-bin
+shim-signed
+
+# ---- Boot splash and branding tools ----
+plymouth
+plymouth-themes
+fastfetch
+
+# ---- Firmware, microcode, laptop heat/power ----
+firmware-linux
+firmware-iwlwifi
+firmware-realtek
+firmware-atheros
+firmware-brcm80211
+firmware-misc-nonfree
+intel-microcode
+amd64-microcode
+power-profiles-daemon
+thermald
+
+# ---- Fonts and media ----
+fonts-noto-core
+fonts-noto-color-emoji
+vlc
+
+# ---- Security ----
+ufw
+plasma-firewall
+apparmor
+unattended-upgrades
+cryptsetup
+
+# ---- Everyday tools ----
+sudo
+locales
+git
+curl
+wget
+htop
+gparted
+timeshift
+p7zip-full
+man-db
+tmux
+jq
+linux-headers-amd64
+print-manager
+plasma-vault
+zsh
+zsh-syntax-highlighting
+zsh-autosuggestions
+fonts-hack

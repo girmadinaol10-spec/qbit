@@ -1,0 +1,41 @@
+# Full-screen picture, scaled to cover the screen (centre-cropped)
+Window.SetBackgroundTopColor(0, 0, 0);
+Window.SetBackgroundBottomColor(0, 0, 0);
+
+bg_image = Image("splash.png");
+sw = Window.GetWidth();
+sh = Window.GetHeight();
+iw = bg_image.GetWidth();
+ih = bg_image.GetHeight();
+scale = Math.Min(sw / iw, sh / ih);
+scaled = bg_image.Scale(iw * scale, ih * scale);
+bg_sprite = Sprite(scaled);
+bg_sprite.SetX(sw / 2 - scaled.GetWidth() / 2);
+bg_sprite.SetY(sh / 2 - scaled.GetHeight() / 2);
+bg_sprite.SetZ(-100);
+
+# Disk-encryption passphrase prompt (needed if the user encrypts the disk)
+prompt_sprite = Sprite();
+bullets_sprite = Sprite();
+
+fun password_callback(prompt, bullets) {
+    prompt_image = Image.Text("Enter passphrase", 1, 1, 1);
+    prompt_sprite.SetImage(prompt_image);
+    prompt_sprite.SetX(sw / 2 - prompt_image.GetWidth() / 2);
+    prompt_sprite.SetY(sh * 0.80);
+    prompt_sprite.SetZ(10);
+    stars = "";
+    for (i = 0; i < bullets; i++) stars += "*";
+    bullets_image = Image.Text(stars, 1, 1, 1);
+    bullets_sprite.SetImage(bullets_image);
+    bullets_sprite.SetX(sw / 2 - bullets_image.GetWidth() / 2);
+    bullets_sprite.SetY(sh * 0.80 + 36);
+    bullets_sprite.SetZ(10);
+}
+Plymouth.SetDisplayPasswordFunction(password_callback);
+
+fun normal_callback() {
+    prompt_sprite.SetOpacity(0);
+    bullets_sprite.SetOpacity(0);
+}
+Plymouth.SetDisplayNormalFunction(normal_callback);

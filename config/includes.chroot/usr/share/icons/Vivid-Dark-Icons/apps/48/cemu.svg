@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Gravit.io -->
+
+<svg
+   style="isolation:isolate"
+   viewBox="0 0 16 16"
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="cemu.svg"
+   inkscape:version="1.4.4 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient2"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#2a7fff;stop-opacity:1"
+         offset="0"
+         id="stop3" />
+      <stop
+         style="stop-color:#8d5fd3;stop-opacity:1"
+         offset="1"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2"
+       id="linearGradient4"
+       x1="1.5"
+       y1="14.5"
+       x2="12.427882"
+       y2="2.0275826"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="23.65625"
+     inkscape:cx="7.989432"
+     inkscape:cy="10.250991"
+     inkscape:window-width="1920"
+     inkscape:window-height="994"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <linearGradient
+     id="_lgradient_2"
+     x1="0.092217483"
+     y1="0.31876332"
+     x2="0.88977677"
+     y2="0.9548862"
+     gradientTransform="matrix(13,0,0,13,1.5,1.5)"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="0%"
+       stop-opacity="1"
+       style="stop-color:rgb(0,196,255)"
+       id="stop1" />
+    <stop
+       offset="83.88839793817618%"
+       stop-opacity="1"
+       style="stop-color:rgb(0,114,255)"
+       id="stop2" />
+  </linearGradient>
+  <path
+     d="m 6.0597015,7.9661834 c 0.014691,0.8523454 0.1114286,1.8091897 0.741194,2.5074196 0.5144563,0.551877 1.3618124,0.705438 2.1066098,0.449041 0.7048828,-0.261109 1.1275907,-0.889211 1.3911937,-1.4834969 l 1.027527,0.3625587 C 10.955906,10.624115 10.295373,11.414094 9.2988913,11.720384 8.4964392,11.960704 7.5894883,11.92162 6.798678,11.663838 5.8373987,11.333987 5.1871215,10.543731 4.9257356,9.700533 4.6111301,8.6782729 4.6075267,7.5917058 4.8242857,6.5542004 5.0091684,5.6821748 5.5441365,4.7971215 6.5153945,4.4107249 7.3322601,4.0817058 8.2946482,4.0404051 9.1589126,4.2413646 c 0.8892114,0.2156503 1.5563964,0.8490192 1.9064814,1.567484 0.201237,0.195693 -0.0474,0.2281237 -0.221194,0.2849467 l -0.778059,0.26 C 9.823049,5.6563966 9.1275906,4.9858849 8.2428145,4.9664819 7.5770149,4.9254584 6.9791258,5.1652239 6.6309808,5.6766311 6.1497868,6.3454797 6.0721748,7.1992111 6.0597015,7.9661834 Z M 5.5812793,2.406951 h 4.8374417 c 0.840426,0 1.650639,0.3356716 2.243262,0.9310661 0.595394,0.5926226 0.931066,1.4028358 0.931066,2.2432622 v 4.8374417 c 0,0.840426 -0.335672,1.650639 -0.931066,2.243262 -0.592623,0.595394 -1.402836,0.931066 -2.243262,0.931066 H 5.5812793 c -0.8404264,0 -1.6506396,-0.335672 -2.2432622,-0.931066 C 2.7426226,12.06936 2.406951,11.259147 2.406951,10.418721 V 5.5812793 c 0,-0.8404264 0.3356716,-1.6506396 0.9310661,-2.2432622 C 3.9306397,2.7426226 4.7408529,2.406951 5.5812793,2.406951 Z m 0,-0.906951 h 4.8374417 c 1.082132,0 2.122132,0.4293603 2.887164,1.1941151 C 14.07064,3.4591471 14.5,4.4991471 14.5,5.5812793 v 4.8374417 c 0,1.082132 -0.42936,2.122132 -1.194115,2.887164 C 12.540853,14.07064 11.500853,14.5 10.418721,14.5 H 5.5812793 C 4.4991471,14.5 3.4591471,14.07064 2.6941151,13.305885 1.9293603,12.540853 1.5,11.500853 1.5,10.418721 V 5.5812793 C 1.5,4.4991471 1.9293603,3.4591471 2.6941151,2.6941151 3.4591471,1.9293603 4.4991471,1.5 5.5812793,1.5 Z"
+     fill-rule="evenodd"
+     id="path2"
+     style="fill:url(#linearGradient4)" />
+</svg>

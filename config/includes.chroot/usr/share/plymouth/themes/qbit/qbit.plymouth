@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Qbit
+Description=Qbit Linux boot splash
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/qbit
+ScriptFile=/usr/share/plymouth/themes/qbit/qbit.script

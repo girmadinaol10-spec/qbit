@@ -1,0 +1,17 @@
+[BlurBehindEffect]
+enabled=true
+
+[ContrastEffect]
+enabled=false
+contrast=0.4
+intensity=0.6
+saturation=8
+
+[AdaptiveTransparency]
+enabled=true
+
+[Wallpaper]
+defaultWallpaperTheme=Vivid Wallpaper
+defaultFileSuffix=.png
+defaultWidth=1920
+defaultHeight=1080

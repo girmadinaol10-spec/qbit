@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 24 24"
+   version="1.1"
+   width="24"
+   height="24"
+   id="svg1"
+   sodipodi:docname="edit-guides.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="32"
+     inkscape:cx="11.96875"
+     inkscape:cy="9.5"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient1"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#b380ff;stop-opacity:1"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#2ad4ff;stop-opacity:1"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <style
+       type="text/css"
+       id="current-color-scheme">.ColorScheme-Text { color: #fcfcfc; } </style>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="4"
+       y1="11"
+       x2="18"
+       y2="11"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.8,0,0,0.8,2.1999999,2.2000002)" />
+  </defs>
+  <g
+     transform="matrix(1.25,0,0,1.25,-1.75,-1.75)"
+     id="g1"
+     style="stroke-width:0.8">
+    <path
+       class="ColorScheme-Text"
+       style="fill:url(#linearGradient2);fill-opacity:1;stroke:none;stroke-width:0.8"
+       d="M 4,3 V 19 H 18 V 7 l -4,-4 -9.99981,1e-5 z m 1.00019,1.00001 h 1 V 15 h -1 z m 2,0 L 13,4 v 4 h 4 l -0.008,7 H 7 V 4.00001 Z m 3.00001,1 -2.00001,2 2.00001,2 z M 5.00019,16 h 1 v 2 h -1 z m 2,0 h 9.99201 v 2 H 7.00019 Z"
+       id="path1" />
+  </g>
+</svg>

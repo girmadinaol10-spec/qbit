@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 22 22"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="document-share.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="34.909091"
+     inkscape:cx="11.014323"
+     inkscape:cy="11"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs3051">
+    <linearGradient
+       id="linearGradient1"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#00d1d1;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#ff4fff;stop-opacity:1;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <style
+       type="text/css"
+       id="current-color-scheme">.ColorScheme-Text { color: #fcfcfc; } </style>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="4"
+       y1="11"
+       x2="18"
+       y2="11"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <path
+     style="fill:url(#linearGradient2);fill-opacity:1;stroke:none"
+     d="M16 3A2.00001 2 0 0 0 14 5 2.00001 2 0 0 0 16 7 2.00001 2 0 0 0 18 5 2.00001 2 0 0 0 16 3M11.5 7A.5 .5 0 0 0 11 7.5 .5 .5 0 0 0 11.5 8 .5 .5 0 0 0 12 7.5 .5 .5 0 0 0 11.5 7M9.5 8A.5 .499991 0 0 0 9 8.5 .5 .499991 0 0 0 9.5 9 .5 .499991 0 0 0 10 8.5 .5 .499991 0 0 0 9.5 8M6 9A2 2.00001 0 0 0 4 11 2 2.00001 0 0 0 6 13 2 2.00001 0 0 0 8 11 2 2.00001 0 0 0 6 9M9.5 13A.500009 .5 0 0 0 9 13.5 .500009 .5 0 0 0 9.5 14 .500009 .5 0 0 0 10 13.5 .500009 .5 0 0 0 9.5 13M11.5 14A.5 .5 0 0 0 11 14.5 .5 .5 0 0 0 11.5 15 .5 .5 0 0 0 12 14.5 .5 .5 0 0 0 11.5 14M16 15A2.00001 2 0 0 0 14 17 2.00001 2 0 0 0 16 19 2.00001 2 0 0 0 18 17 2.00001 2 0 0 0 16 15"
+     class="ColorScheme-Text"
+     id="path1" />
+</svg>

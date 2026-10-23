@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Gravit.io -->
+
+<svg
+   style="isolation:isolate"
+   viewBox="0 0 16 16"
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="com.github.zren.todolist.svg"
+   inkscape:version="1.4.4 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="15.770833"
+     inkscape:cx="7.989432"
+     inkscape:cy="8.7820343"
+     inkscape:window-width="1920"
+     inkscape:window-height="994"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <linearGradient
+     id="_lgradient_2"
+     x1="0"
+     y1="1"
+     x2="1.1153846"
+     y2="0.16405714"
+     gradientTransform="matrix(13,0,0,13,1.5,1.5)"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="0%"
+       stop-opacity="1"
+       style="stop-color:#ffdd55;stop-opacity:1"
+       id="stop1" />
+    <stop
+       offset="98.69565217391305%"
+       stop-opacity="1"
+       style="stop-color:#dd55ff;stop-opacity:1"
+       id="stop2" />
+  </linearGradient>
+  <path
+     d="m 13.318182,8.0413636 v 0 c 0,-0.3261818 0.264727,-0.5909091 0.590909,-0.5909091 v 0 c 0.326182,0 0.590909,0.2647273 0.590909,0.5909091 v 0 4.3904544 C 14.5,13.573159 13.573159,14.5 12.431818,14.5 H 3.5681818 C 2.4268409,14.5 1.5,13.573159 1.5,12.431818 V 3.5681818 C 1.5,2.4268409 2.4268409,1.5 3.5681818,1.5 H 12.431818 C 13.573159,1.5 14.5,2.4268409 14.5,3.5681818 v 0.455 c 0,0.3261818 -0.200909,0.7631591 -0.448795,0.9752955 L 8.3985682,9.843341 c -0.2478864,0.212136 -0.62725,0.188795 -0.8473637,-0.052 L 5.1990909,7.2170455 v 0 C 4.9789773,6.9756591 4.9961136,6.6010227 5.2375,6.3809091 v 0 C 5.4788864,6.1607955 5.8535227,6.1779318 6.0736364,6.4193182 v 0 L 7.8510909,8.3666591 C 7.961,8.4872045 8.1506818,8.4987273 8.2744773,8.3926591 L 13.093932,4.2627955 C 13.217727,4.1567273 13.318182,3.9380909 13.318182,3.775 V 3.5681818 c 0,-0.4892727 -0.397091,-0.8863636 -0.886364,-0.8863636 H 4.1590909 c -0.8154545,0 -1.4772727,0.6618182 -1.4772727,1.4772727 v 7.6818181 c 0,0.815455 0.6618182,1.477273 1.4772727,1.477273 h 7.6818181 c 0.815455,0 1.477273,-0.661818 1.477273,-1.477273 z"
+     fill="url(#_lgradient_2)"
+     id="path2"
+     style="fill:url(#_lgradient_2);stroke-width:0.295455" />
+</svg>

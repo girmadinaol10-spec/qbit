@@ -1,0 +1,17 @@
+#!/bin/sh
+set -e
+# 1. Keep our os-release even after base-files upgrades (divert Debian's copy)
+if [ -e /etc/os-release ]; then
+    cp -L /etc/os-release /tmp/qbit-os-release
+    dpkg-divert --package qbit --quiet --add --rename \
+        --divert /usr/lib/os-release.debian /usr/lib/os-release || true
+    cp /tmp/qbit-os-release /usr/lib/os-release
+    ln -sf ../usr/lib/os-release /etc/os-release
+    rm -f /tmp/qbit-os-release
+fi
+# 2. Boot splash
+if [ -d /usr/share/plymouth/themes/qbit ]; then
+    plymouth-set-default-theme -R qbit
+fi
+# 3. Icon cache for the start menu icon
+gtk-update-icon-cache -f -t /usr/share/icons/hicolor 2>/dev/null || true

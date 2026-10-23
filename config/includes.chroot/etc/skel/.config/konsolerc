@@ -1,0 +1,19 @@
+MenuBar=Disabled
+
+[Desktop Entry]
+DefaultProfile=qbit.profile
+
+[General]
+ConfigVersion=1
+
+[KonsoleWindow]
+RememberWindowSize=false
+
+[MainWindow]
+MenuBar=Disabled
+
+[Notification Messages]
+CloseAllTabs=true
+
+[UiSettings]
+ColorScheme=

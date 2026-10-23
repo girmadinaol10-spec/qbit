@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=/usr/lib/x86_64-linux-gnu/libexec/plasma-dbus-run-session-if-needed /usr/bin/startplasma-wayland
+TryExec=/usr/bin/startplasma-wayland
+DesktopNames=KDE
+Name=Hyper-bit (AI Workspace)
+Comment=Qbit AI workspace
