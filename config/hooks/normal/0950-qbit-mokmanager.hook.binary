@@ -1,0 +1,44 @@
+#!/bin/sh
+set -eu
+
+if [ -f binary/boot/grub/efi.img ]; then
+    ROOT="$PWD"
+    IMG="$ROOT/binary/boot/grub/efi.img"
+elif [ -f boot/grub/efi.img ] && [ -d ../config/hooks ]; then
+    ROOT="$(cd .. && pwd)"
+    IMG="$PWD/boot/grub/efi.img"
+else
+    echo "ERROR: EFI image not found when MokManager hook ran."
+    exit 1
+fi
+
+if [ -r "$ROOT/chroot/usr/lib/shim/mmx64.efi.signed" ]; then
+    MOK="$ROOT/chroot/usr/lib/shim/mmx64.efi.signed"
+elif [ -r /usr/lib/shim/mmx64.efi.signed ]; then
+    MOK="/usr/lib/shim/mmx64.efi.signed"
+else
+    echo "ERROR: Signed mmx64.efi.signed not found."
+    exit 1
+fi
+
+TMP="$(mktemp -d)"
+trap 'rm -rf "$TMP"' EXIT
+
+mcopy -i "$IMG" ::/EFI/BOOT/BOOTX64.EFI "$TMP/bootx64.efi"
+mcopy -i "$IMG" ::/EFI/BOOT/GRUBX64.EFI "$TMP/grubx64.efi"
+mcopy -i "$IMG" ::/boot/grub/grub.cfg "$TMP/grub.cfg"
+
+mkfs.msdos -C "$TMP/efi.img" 8192 -i 51424954 >/dev/null
+mmd -i "$TMP/efi.img" ::/EFI
+mmd -i "$TMP/efi.img" ::/EFI/BOOT
+mmd -i "$TMP/efi.img" ::/boot
+mmd -i "$TMP/efi.img" ::/boot/grub
+
+mcopy -i "$TMP/efi.img" "$TMP/bootx64.efi" ::/EFI/BOOT/BOOTX64.EFI
+mcopy -i "$TMP/efi.img" "$TMP/grubx64.efi" ::/EFI/BOOT/GRUBX64.EFI
+mcopy -i "$TMP/efi.img" "$MOK" ::/EFI/BOOT/MMX64.EFI
+mcopy -i "$TMP/efi.img" "$TMP/grub.cfg" ::/boot/grub/grub.cfg
+
+cp "$TMP/efi.img" "$IMG"
+echo "Qbit Secure Boot: included signed MokManager in EFI image."
+mdir -i "$IMG" ::/EFI/BOOT
