@@ -473,7 +473,6 @@ sudo rm -rf .build chroot binary cache
 
 - **Download:** [https://akirabox.to/EL73gkBNE39B/file](https://akirabox.to/EL73gkBNE39B/file)
 - **GitHub:** [github.com/girmadinaol10-spec/qbit](https://github.com/girmadinaol10-spec/qbit)
-- **Checksum:** the SHA256 is in Step 1.
 
 Questions or problems? [Open an issue](https://github.com/girmadinaol10-spec/qbit/issues) on my GitHub page and I will help.
 
