@@ -29,7 +29,7 @@ Hi, I'm Diniy. I built Qbit Linux with live-build and the KDE Plasma desktop, an
 
 Follow the steps in order. Read every warning box, because those are the spots where people usually get stuck or lose files. Take your time. If you get lost, the [Troubleshooting](#if-something-goes-wrong) section near the end and my GitHub page are there to help.
 
-| About 2.5 GB | 8 GB or more | 1 to 2 hours |
+| About 2.9 GB | 8 GB or more | 1 to 2 hours |
 | --- | --- | --- |
 | the download | an empty USB flash drive | with no rush |
 
@@ -38,7 +38,7 @@ Follow the steps in order. Read every warning box, because those are the spots w
 ## What you need before you start
 
 - **A USB flash drive.** 8 GB or bigger. Everything on it will be erased, so use an empty one.
-- **A PC.** Windows 10 or 11 if you want dual boot. Any 64-bit PC works if Qbit gets the whole disk. There is also a guide for Linux users on my GitHub repo: [Building the ISO on a Debian or Arch based system](Build-Qbit-ISO-Debian-Arch.md).
+- **A PC.** Windows 10 or 11 if you want dual boot. Any 64-bit PC works if Qbit gets the whole disk. There is also a guide for Linux users on far down in this guide : [Building the ISO on a Debian or Arch based system](Build-Qbit-ISO-Debian-Arch.md).
 - **Free disk space.** Plan on 40 GB or more for Qbit. More room is better if you will install lots of apps.
 - **Power and time.** Laptops: keep the charger plugged in. Set aside 1 to 2 hours so you never rush a step.
 
@@ -55,7 +55,7 @@ Follow the steps in order. Read every warning box, because those are the spots w
 
 | Step | What you do |
 | --- | --- |
-| 1. Download | Get the Qbit ISO file (about 2.5 GB). |
+| 1. Download | Get the Qbit ISO file (about 2.9 GB). |
 | 2. Write USB | Use Rufus to make a bootable stick. |
 | 3. Prep Windows | Turn off Fast Startup, check BitLocker. |
 | 4. Shrink drive | Free up space for Qbit in Disk Management. |
@@ -75,19 +75,8 @@ Follow the steps in order. Read every warning box, because those are the spots w
 | | |
 | --- | --- |
 | File name | `qbit-linux-1.0-rc3-amd64.hybrid.iso` |
-| Size | about 2.5 GB |
-| SHA256 checksum | `PASTE-THE-64-CHARACTER-HASH-HERE` |
+| Size | about 2.9 GB |
 
-**Check that the download is not damaged (optional):**
-
-1. Open the Downloads folder. In File Explorer, right-click an empty spot and choose **Open in Terminal** (or PowerShell).
-2. Paste this command and press Enter:
-
-   ```powershell
-   Get-FileHash .\qbit-linux-1.0-rc3-amd64.hybrid.iso -Algorithm SHA256
-   ```
-
-3. Compare the long result with the SHA256 above. If even one character differs, download the file again.
 
 ## Step 2: Write the USB with Rufus
 
