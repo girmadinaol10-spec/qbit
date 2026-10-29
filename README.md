@@ -1,10 +1,11 @@
 # Qbit Linux
 
-Qbit Linux is a Debian 13 (Trixie) based live and installable distribution with the KDE Plasma 6 desktop. The ISO is built with Debian's [live-build](https://wiki.debian.org/DebianLive); this repository contains everything needed to rebuild it.
+Quantum-bit Linux is a Debian 13 (Trixie) based live and installable distribution built by Dinaol Girma aka Diniy with the KDE Plasma 6 desktop and additional hyperland sddm . The ISO is built with Debian's [live-build](https://wiki.debian.org/DebianLive); this repository contains everything needed to rebuild it.
 
 ## What is included
 
 - KDE Plasma 6 on Wayland, with the Vivid Dark look, Qbit wallpapers, boot splash and login screen
+- hyperland sddm/Cybersecurity related aka qbit cyber
 - Calamares graphical installer, with dual-boot support (os-prober, ntfs-3g)
 - zsh as the default shell, with syntax highlighting, suggestions and command correction
 - Konsole preconfigured with a transparent profile
@@ -17,8 +18,8 @@ Qbit Linux is a Debian 13 (Trixie) based live and installable distribution with 
 | Session | Status |
 |---|---|
 | Qbit (Plasma) | The standard Qbit desktop |
-| Hyper-bit (AI Workspace) | Placeholder, currently starts the same Plasma desktop |
-| Qbit Cyber | Placeholder, currently starts the same Plasma desktop |
+| Hyper-bit (local ai host) |not preconfigured, i prepared it for my personal project |
+| Qbit Cyber |hyperland|
 
 ## Building the ISO
 
@@ -72,7 +73,7 @@ To change what is installed, edit the lists in `config/package-lists/`. A list e
 - Early release, tested in QEMU.
 - The live ISO may not boot with Secure Boot enabled. Turn it off to run the installer.
 - The Plasma X11 session is hidden at the login screen.
-- Hyprland is not in Debian 13's repositories, so it is not included.
+- Hyprland is not in Debian 13's repositories, so it is not included. but im planing to include it in this github repo
 - The boot menu pictures replace live-build's defaults after the menus are generated; a future live-build release may change how those menus are created.
 
 ## Licences and credits
