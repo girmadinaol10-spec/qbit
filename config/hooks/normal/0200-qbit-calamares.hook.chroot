@@ -1,19 +1,12 @@
 #!/bin/sh
-# Re-brand Debian's Calamares installer config as Qbit Linux (best effort).
 set -e
-SRC=""
-for d in /etc/calamares/branding/debian /usr/share/calamares/branding/debian; do
-    if [ -d "$d" ]; then SRC="$d"; break; fi
+for d in /etc/calamares/branding /usr/share/calamares/branding; do
+    [ -d "$d/debian" ] || continue
+    [ -d "$d/qbit" ] && continue
+    cp -a "$d/debian" "$d/qbit"
+    sed -i -E '/^[[:space:]]*(productName|shortProductName|versionedName|shortVersionedName|bootloaderEntryName):/ s/Debian( GNU\/Linux)?/Qbit Linux/g' "$d/qbit/branding.desc"
+    sed -i -E 's/^componentName:.*/componentName:   qbit/' "$d/qbit/branding.desc"
 done
-if [ -z "$SRC" ]; then
-    echo "W: Debian Calamares branding not found, skipping"
-    exit 0
-fi
-DEST="$(dirname "$SRC")/qbit"
-rm -rf "$DEST"
-cp -a "$SRC" "$DEST"
-sed -i -E '/^[[:space:]]*(productName|shortProductName|versionedName|shortVersionedName|bootloaderEntryName):/ s/Debian( GNU\/Linux)?/Qbit Linux/g' \
-    "$DEST/branding.desc"
 if [ -f /etc/calamares/settings.conf ]; then
     sed -i -E 's/^branding:.*/branding: qbit/' /etc/calamares/settings.conf
 fi

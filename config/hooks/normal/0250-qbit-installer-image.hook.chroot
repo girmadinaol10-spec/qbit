@@ -15,3 +15,7 @@ for f in /usr/share/applications/*.desktop /etc/skel/Desktop/*.desktop; do
     grep -qi calamares "$f" || continue
     sed -i -E '/^(Name|GenericName|Comment)(\[[^]]*\])?=/ s/Debian( GNU\/Linux)?/Qbit Linux/g' "$f"
 done
+for f in /usr/share/applications/calamares-install-debian.desktop; do
+    [ -f "$f" ] || continue
+    sed -i -E 's#^Icon=.*#Icon=/usr/share/qbit/logo-256.png#' "$f"
+done

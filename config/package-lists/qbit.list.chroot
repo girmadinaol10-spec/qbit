@@ -34,7 +34,7 @@ bluez
 pciutils
 usbutils
 
-# ---- Installer (Calamares) + bootloader + dual boot with Windows ----
+# ---- Debian Installer + bootloader and filesystem support ----
 calamares
 calamares-settings-debian
 os-prober
@@ -43,7 +43,6 @@ efibootmgr
 grub-efi-amd64
 grub-pc-bin
 shim-signed
-
 # ---- Boot splash and branding tools ----
 plymouth
 plymouth-themes
@@ -93,3 +92,6 @@ zsh
 zsh-syntax-highlighting
 zsh-autosuggestions
 fonts-hack
+
+# Required kernel for bootable Qbit Linux
+linux-image-amd64

@@ -9,8 +9,3 @@ if grep -q '^SHELL=' /etc/default/useradd 2>/dev/null; then
 else
     echo 'SHELL=/bin/zsh' >> /etc/default/useradd
 fi
-cf=/etc/calamares/modules/users.conf
-if [ -f "$cf" ]; then
-    if grep -q '^userShell:' "$cf"; then sed -i 's#^userShell:.*#userShell: /bin/zsh#' "$cf"
-    else echo 'userShell: /bin/zsh' >> "$cf"; fi
-fi

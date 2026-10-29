@@ -10,14 +10,14 @@ lb config noauto \
     --parent-archive-areas "main contrib non-free-firmware" \
     --firmware-chroot true \
     --firmware-binary true \
-    --debian-installer none \
     --binary-images iso-hybrid \
+    --debian-installer none \
     --bootloaders "syslinux,grub-efi" \
     --apt-indices false \
     --iso-application "Qbit Linux" \
     --iso-publisher "Qbit Linux; diniy" \
     --iso-preparer "Qbit Linux live-build" \
     --iso-volume "QBIT_1_0" \
-    --image-name "qbit-linux-1.0-amd64" \
+    --image-name "qbit-linux-1.0-rc3" \
     --bootappend-live "boot=live components quiet splash username=live hostname=qbit" \
     "${@}"

@@ -1,0 +1,39 @@
+---
+componentName:   qbit
+welcomeStyleCalamares: true
+welcomeExpandingLogo: true
+windowExpanding: normal
+windowSize: 800px,580px
+windowPlacement: center
+
+strings:
+    productName:         Qbit Linux
+    shortProductName:    Qbit Linux
+    version:             "1.0"
+    shortVersion:        13
+    versionedName:       "Qbit Linux 1.0"
+    shortVersionedName:  Qbit Linux 1.0
+    bootloaderEntryName: Qbit Linux
+    productUrl:          https://github.com/girmadinaol10-spec/qbit
+    supportUrl:          https://github.com/girmadinaol10-spec/qbit
+    knownIssuesUrl:      https://github.com/girmadinaol10-spec/qbit
+    releaseNotesUrl:     https://github.com/girmadinaol10-spec/qbit
+    donateUrl:           https://github.com/girmadinaol10-spec/qbit
+
+sidebar: widget
+navigation: widget
+
+images:
+    productLogo:         "qbit-logo.png"
+    productIcon:         "qbit-logo.png"
+    productWelcome:      "installer-bg.png"
+
+slideshow:               "show.qml"
+
+style:
+   SidebarBackground:    "#26475b"
+   SidebarText:          "#FFFFFF"
+   SidebarTextCurrent:   "#fbfbfb"
+   SidebarBackgroundCurrent: "#265370"
+
+slideshowAPI: 2
