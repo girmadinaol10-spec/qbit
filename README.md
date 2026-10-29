@@ -25,11 +25,11 @@ Quantum-bit Linux is a Debian 13 (Trixie) based live and installable distributio
 
 **Install Qbit Linux 1.0 next to Windows: USB stick, BIOS / UEFI, shrinking your drive and the installer.**
 
-Hi, I'm Diniy. I built Qbit Linux with live-build and the KDE Plasma desktop, and I wrote this guide so you can install it.
+I wrote this guide so you can install qbit with no problems so follow the step by step guide.
 
 Follow the steps in order. Read every warning box, because those are the spots where people usually get stuck or lose files. Take your time. If you get lost, the [Troubleshooting](#if-something-goes-wrong) section near the end and my GitHub page are there to help.
 
-| About 2.9 GB | 8 GB or more | 1 to 2 hours |
+| About 2.5 GB | 8 GB or more | 1 to 2 hours |
 | --- | --- | --- |
 | the download | an empty USB flash drive | with no rush |
 
@@ -75,7 +75,7 @@ Follow the steps in order. Read every warning box, because those are the spots w
 | | |
 | --- | --- |
 | File name | `qbit-linux-1.0-rc3-amd64.hybrid.iso` |
-| Size | about 2.9 GB |
+| Size | about 2.5 GB |
 
 
 ## Step 2: Write the USB with Rufus
