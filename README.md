@@ -24,9 +24,8 @@ Quantum-bit Linux is a Debian 13 (Trixie) based live and installable distributio
 # Windows / Qbit Dual Boot Installation
 
 **Install Qbit Linux 1.0 next to Windows: USB stick, BIOS / UEFI, shrinking your drive and the installer.**
-Written by Diniy.
 
-Hi, I'm Diniy. I built Qbit Linux with live-build and the KDE Plasma desktop, and I wrote this guide so you can install it without guessing.
+Hi, I'm Diniy. I built Qbit Linux with live-build and the KDE Plasma desktop, and I wrote this guide so you can install it.
 
 Follow the steps in order. Read every warning box, because those are the spots where people usually get stuck or lose files. Take your time. If you get lost, the [Troubleshooting](#if-something-goes-wrong) section near the end and my GitHub page are there to help.
 
